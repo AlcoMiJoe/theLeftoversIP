@@ -1,0 +1,102 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+* {
+-webkit-font-smoothing: antialiased;
+box-sizing: border-box;
+}
+
+html, body {
+margin: 0px;
+height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+outline: 2px solid #4a90e2 !important;
+outline: -webkit-focus-ring-color auto 5px !important;
+}
+
+
+.dm-sans-reg {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.dm-sans-med {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.dm-sans-sem {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.dm-sans-bol {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+.ibm-plex-sans-reg {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.ibm-plex-sans-med {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.ibm-plex-sans-sem {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.ibm-plex-sans-bol {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.light-button {
+  display: inline-block;
+  background-color: #f5f5f5;
+  color: #4B0082;
+  padding: 0.6rem 5rem;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 50px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.light-button:hover {
+    background-color: #4B0082;
+    color: #f5f5f5;
+}
